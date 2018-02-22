@@ -1,0 +1,21 @@
+{
+  "name": "tutorial",
+  "version": "1.0.0",
+  "description": "canvas tutorial",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --open --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wenchao",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "node": "^9.4.0"
+  }
+}
